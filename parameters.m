@@ -1,7 +1,9 @@
-% parameters.m
-% Parameter for example 2.1 from Manitius 1979
+% Author: Adriano Rodrigues
 % 
-% To run this model, the step-size must be very small!
+% InitCallback function for Example_2.1.slx and parameter definition for
+% example 2.1 from Manitius 1979
+% 
+% !! To run this model, the step size must be VERY SMALL!!
 
 % Clear cache
 clc, clear all, close all
