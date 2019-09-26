@@ -4,7 +4,7 @@ clc, clear all, close all
 
 h = 1;
 Ts = 0.01;
-Tsim = 15;
+Tsim = 25;
 s = tf('s');
 A = [0 0
      1 1];
@@ -17,7 +17,7 @@ B = [1
 % BA = [1
 %       exp(-h)-1];
 I = eye(size(A));
-IC = [0 0];
+IC = [0 .10];
 
 S = inv(s*I-A);
 S(1,1) = 1/s;
