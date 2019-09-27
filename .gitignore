@@ -1,4 +1,4 @@
 *.slxc
 /slprj/
-.m~
-.autosave
+*.m~
+*.autosave
